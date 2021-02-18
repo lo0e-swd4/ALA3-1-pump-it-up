@@ -1,0 +1,440 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pre-Configured PC Builds - eXtreme Outer Vision</title>
+	<meta name="robots" content="index,follow">
+	<meta name="keywords" content="pc builds, pc parts, pc components, gaming build, gaming pc, media pc build, video editing pc">
+	<meta name="description" content="Pre-configured PC Builds for gaming, video and photo editing, media streaming, and more.">
+    <link rel="canonical" href="https://outervision.com/pre-configured-pc-builds" />
+
+
+
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//s7.addthis.com">
+	<link rel="stylesheet" href="/css/main_v1.8.css">
+	
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700,600,400italic|Roboto:100,300,400|Oswald:300,400,700" rel="stylesheet" type="text/css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+	<script src="/js/combined_v1.0.min.js"></script>
+	<script src="/js/main_v1.2.js"></script>
+	<!-- cookie -->
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" media="print" onload="this.media='all'" />
+	<script async defer src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+		"popup": {
+		  "background": "#1d2127"
+		},
+		"button": {
+		  "background": "#ff7301",
+		  "text": "#ffffff"
+		}
+	  },
+	  "content": {
+		"message": "We use cookies to give you the best possible user experience. To learn more about our use of cookies please read our ",
+		"link": "cookie policy.",
+		"href": "https://outervision.com/cookie-policy"
+	  }
+	})});
+	</script>
+	<!-- end cookie -->
+  </head>
+
+  <body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1238705-9', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <div id="wrapper">
+      <div class="w1">
+        <header id="header">
+          <div class="container">
+            <div class="header-holder">
+              <div class="logo"><a href="/"><img src="/images/logo.png" alt="logo"></a></div>
+              <div id="nav"><a href="#" class="nav-opener"><i class="fa fa-bars"></i></a>
+                <div class="nav-drop"><a href="#" class="nav-opener nav-close"><i class="fa fa-times"></i></a>
+                  <ul class="main-nav">
+					<li><a href="/power-supply-calculator" title="Power Supply Calculator">Power Supply Calculator</a></li>
+					<li><a href="/mining-rig-builder" title="Ethereum Mining Rig Builder">Mining Rig Builder</a></li>
+                    <li><a href="/pre-configured-pc-builds" title="PC Builds">PC Builds</a></li>
+					<li><a href="/psu-reviews" title="Power Supply Reviews">Power Supply Reviews</a></li>
+					<!--li><a href="/updates" title="PSU Calculator Updates">PSU Calculator Updates</a></li-->
+					<li><a class="visible-xs" href="/contact-us" title="Contact Us">Contact Us</a></li>
+                  </ul>
+				  <div class="visible-xs" style="text-align: center; margin-bottom: 30vh;"><img src="/img/logo-white.png" style="margin-top: 20vh;margin-bottom: 10vh;" alt="eXtreme Outer Vision"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main id="main">
+
+<img src="/img/pc-builds.png" alt="Pre-Configured PC Builds" border="0" data-pin-media="https://outervision.com/img/pc-builds.png" data-pin-description="Pre-Configured PC Builds" style="position: absolute; left: -9999px; top: 0;">
+          <div class="container container-large2">
+            <div id="two-columns">
+              <div class="left-common-block">
+                <div class="top-main-header">
+                  <h1>Pre-configured PC Builds</h1>
+                </div>
+                <article class="article pc-builds-box">
+					
+					<ul>
+						<!-- Gaming -->
+						<li id="gaming-li" class="hoverrow"><img class="img80" src="/img/icons/xov/pc-gaming-build2.png"><h2>Gaming PC Builds</h2>
+							<div id="gaming-dv" class="pc-builds" style="display: none;">
+								
+								<a href="/high-end-gaming-pc-build" target="_blank" title="Gaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#53743d;">Tyrath</span></strong> | High-End Gaming PC (VR-READY)</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/gaming-1.png" alt="Tyrath | $3,500 High-End Gaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$3,500</div>
+									<a href="/high-end-gaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="High-End Gaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/mid-range-gaming-pc-build" target="_blank" title="Gaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#f0b100;">Jura</span></strong> | Mid-Range Gaming PC (VR-READY)</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/gaming-2.png" alt="Jura | $2,000 Mid-Range Gaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$2,000</div>
+									<a href="/mid-range-gaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Mid Range Gaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/value-gaming-pc-build" target="_blank" title="Gaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#333c87;">Ragnar</span></strong> | Value Gaming<br />PC (VR-READY)</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/gaming-3.png" alt="Ragnar | $1,000 Value Gaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$1,000</div>
+									<a href="/value-gaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Value Gaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/budget-gaming-pc-build" target="_blank" title="Gaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#c70b0b;">Spyro</span></strong> | Budget Gaming<br />PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/gaming-4.png" alt="Spyro | $500 Budget Gaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$500</div>
+									<a href="/budget-gaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Budget Gaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+							</div>
+						</li>
+						<!-- Video & Photo -->
+						<li id="video-li" class="hoverrow"><img class="img80" src="/img/icons/xov/pc-video-build2.png"><h2>Video & Photo Editing</h2>
+							<div id="video-dv" class="pc-builds" style="display: none;">
+								
+								<a href="/high-end-video-editing-pc-build" target="_blank" title="Video Editing PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#edaa04;">Hornet</span></strong> | High-End Video Editing PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/video-1.png" alt="Hornet | $2,500 High-End Video Editing PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$2,500</div>
+									<a href="/high-end-video-editing-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="High-End Video Editing PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/mid-range-video-editing-pc-build" target="_blank" title="Video Editing PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#4275cd;">Anubis</span></strong> | Mid-Range Video Editing PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/video-2.png" alt="Anubis | $1,500 Mid-Range Video Editing PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$1,500</div>
+									<a href="/mid-range-video-editing-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Mid Range Video Editing PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/value-video-editing-pc-build" target="_blank" title="Video Editing PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#4ec400;">Mantis</span></strong> | Value Video Editing PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/video-3.png" alt="Mantis | $1,000 Value Video Editing PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$1,000</div>
+									<a href="/value-video-editing-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Value Video Editing PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/budget-video-editing-pc-build" target="_blank" title="Video Editing PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#e97a03;">Spindra</span></strong> | Budget Video Editing PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/video-4.png" alt="Spindra | $500 Budget Video Editing PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$500</div>
+									<a href="/budget-video-editing-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Budget Video Editing PC Build">View More Details</a>
+								</div>
+								</a>
+								
+							</div>
+						</li>
+						
+						<!-- Media Streaming -->
+						<li id="media-li" class="hoverrow"><img class="img80" src="/img/icons/xov/pc-media-build2.png"><h2>Media Streaming</h2>
+							<div id="media-dv" class="pc-builds" style="display: none;">
+								
+								<a href="/high-end-media-streaming-pc-build" target="_blank" title="Media Streaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#e6800e;">T-Rex</span></strong> | High-End Media Streaming PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/media-1.png" alt="T-Rex | $,1500 High-End Media Streaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$1,500</div>
+									<a href="/high-end-media-streaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="High-End Media Streaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/mid-range-media-streaming-pc-build" target="_blank" title="Media Streaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#4c8200;">Spino</span></strong> | Mid-Range Media Streaming PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/media-2.png" alt="Spino | $700 Mid-Range Media Streaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$700</div>
+									<a href="/mid-range-media-streaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Mid Range Media Streaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/value-media-streaming-pc-build" target="_blank" title="Media Streaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#e37a70;">Dimo</span></strong> | Value Media Streaming PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/media-3.png" alt="Dimo | $500 Value Media Streaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$500</div>
+									<a href="/value-media-streaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Value Media Streaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/budget-media-streaming-pc-build" target="_blank" title="Media Streaming PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#1d9dda;">Raptor</span></strong> | Budget Media Streaming PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/media-4.png" alt="Raptor | $350 Budget Media Streaming PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$350</div>
+									<a href="/budget-media-streaming-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Budget Media Streaming PC Build">View More Details</a>
+								</div>
+								</a>
+								
+							</div>
+						</li>
+						
+
+						<!-- Home & Office -->
+						<li id="office-li" class="hoverrow"><img class="img80" src="/img/icons/xov/pc-office-build2.png"><h2>Home & Office</h2>
+							<div id="office-dv" class="pc-builds" style="display: none;">
+								
+								<a href="/high-end-home-office-pc-build" target="_blank" title="Home & Office PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#ff9a00;">Victor</span></strong> | High-End Home & Office PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/home-1.png" alt="Victor | $1,200 High-End Home & Office PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$1,200</div>
+									<a href="/high-end-home-office-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="High-End Home & Office PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/mid-range-home-office-pc-build" target="_blank" title="Home & Office PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#aaa193;">Tyson</span></strong> | Mid-Range Home & Office PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/home-2.png" alt="Tyson | $700 Mid-Range Home & Office PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$700</div>
+									<a href="/mid-range-home-office-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Mid Range Home & Office PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/value-home-office-pc-build" target="_blank" title="Home & Office PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#a3abb6;">Dina</span></strong> | Value Home & Office PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/home-3.png" alt="Dina | $500 Value Home & Office PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$500</div>
+									<a href="/value-home-office-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Value Home & Office PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/budget-home-office-pc-build" target="_blank" title="Home & Office PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#a97f5d;">Aya</span></strong> | Budget Home & Office PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/home-4.png" alt="Aya | $200 Budget Home & Office PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$200</div>
+									<a href="/budget-home-office-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Budget Home & Office PC Build">View More Details</a>
+								</div>
+								</a>
+								
+							</div>
+						</li>
+						
+						
+						<!-- Workstation -->
+						<li id="workstation-li" class="hoverrow"><img class="img80" src="/img/icons/xov/pc-workstation-build2.png"><h2>Workstations</h2>
+							<div id="workstation-dv" class="pc-builds" style="display: none;">
+								
+								<a href="/high-end-workstation-pc-build" target="_blank" title="Workstation PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#216f00;">Kendra</span></strong> | High-End Workstation PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/workstation-1.png" alt="Hornet | $16,000 High-End Workstation PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$16,000</div>
+									<a href="/high-end-workstation-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="High-End Workstation PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/mid-range-workstation-pc-build" target="_blank" title="Workstation PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#e51500;">Diamond</span></strong> | Mid-Range Workstation PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/workstation-2.png" alt="Anubis | $2,500 Mid-Range Workstation PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$2,500</div>
+									<a href="/mid-range-workstation-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Mid Range Workstation PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/value-workstation-pc-build" target="_blank" title="Workstation PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#e27c00;">Conan</span></strong> | Value Workstation PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/workstation-3.png" alt="Mantis | $1,000 Value Workstation PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$1,000</div>
+									<a href="/value-workstation-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Value Workstation PC Build">View More Details</a>
+								</div>
+								</a>
+								
+								<a href="/budget-workstation-pc-build" target="_blank" title="Workstation PC Parts List">
+								<div class="pc-builds-item gaming">
+									<h3><strong><span style="color:#960500;">Eve</span></strong> | Budget Workstation PC Build</h3>
+									<div class="article pc-builds-box centerimg">
+										<img src="/img/pcbuilds/workstation-4.png" alt="Spindra | $700 Budget Workstation PC Build">
+										
+									</div>
+									<div class="pc-builds-price">$700</div>
+									<a href="/budget-workstation-pc-build" style="color: #fff;" class="btn btn-blue btn-blue-small" target="_blank" title="Budget Workstation PC Build">View More Details</a>
+								</div>
+								</a>
+								
+							</div>
+						</li>
+						
+												
+					</ul>
+
+
+                </article>
+              </div>
+            <!--%@ include file="/includes/sidebar.jsp" %-->
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer id="footer">
+        <div class="f1">
+          <div class="container">
+            <div class="footer-holder">
+              <div class="left-form-box">
+				<span class="title" style="margin-left: 8px;">Contact Us</span>
+				<img src="/img/contact3.jpg" alt="Contact">
+                                <p>As an Amazon Associate I earn from qualifying purchases. This site receives support when the <a href="https://www.amazon.com/exec/obidos/redirect-home/xov-20" rel="nofollow" target="_blank">Amazon.com</a> and other links provided are used to make any purchase. Thank you for your support!
+                                </p>
+              </div>
+              <div class="right-links">
+                <div class="link-lists-holder">
+                  <div class="link-lists">
+                    <div class="col"><span class="title">XOV</span>
+                      <ul class="nav">
+                        <li><a href="/power-supply-calculator" title="Power Supply Calculator">PSU Calculator</a></li>
+						<li><a href="/mining-rig-builder" title="Ethereum Mining Rig Builder">Mining Rig Builder</a></li>
+						<li><a href="/pc-energy-cost" title="PC Energy Cost">PC Energy Cost</a></li>
+						<li><a href="/psu-reviews" title="PSU Reviews">PSU Reviews</a></li>
+						<li><a href="/pre-configured-pc-builds" title="PC Builds">PC Builds</a></li>
+                      </ul>
+                    </div>
+                    <div class="col"><span class="title">Company</span>
+                      <ul class="nav">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/terms">Terms of Use</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+						<li><a href="/disclosure">Disclosure</a></li>
+                      </ul>
+                    </div>
+                  </div>
+				   <div class="link-lists">
+                    <div class="col"><span class="title mg-top-50">Connect With Us</span>
+                      <ul class="social-networks">
+						<li><a href="https://www.instagram.com/psucalculator/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/psucalculator"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://plus.google.com/106809730820825235684/"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://twitter.com/PSUCalculator"><i class="fa fa-twitter"></i></a></li>
+					  </ul>
+                    </div>
+                    <div class="col" style="margin-top: 35px;">
+						<a href="/pre-configured-pc-builds" target="_blank"><img width="120" src="/img/pcbuilds/gaming-2small.png" alt="PC Builds"></a>
+                    </div>
+                  </div>
+                  <p class="copyright">&copy; 2004-2021 eXtreme Outer Vision, LLC. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-569aea45f8725ade" async="async"></script>
+  </body>
+</html>
+
