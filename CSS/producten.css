@@ -2,10 +2,92 @@
 @media screen and (min-width: 100px) and (max-width:767.9px){
     body{
         width: 100vw;
+        background-image: url(../images/1016430.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: fantasy;
+        background-color: #0a1644;
+        z-index: -2;
+    }
+    #navbar{
+        display: none;
+    }
+    #nav-bar-big img{
+        height: 15vh;
+        position: relative;
+        left: -10vw;
+    }
+    header{
+        background-color: black;
+        height: 17vh;
+    }
+    #slideshow{
+        margin-top: 5vh;
+        margin-bottom: 5hv;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #slideshow img{
+        width: 100vw;
+    }
+    #original{
+        margin-top: 5vh;
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        margin-left: 15vw; 
+    }
+    .titel{
+        color: #07d1e3;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .container{
+        top: 10vh;
+        text-align: center;
+        color: white;
+    }
+    .opacity{
+        background-color: #0a1644;
+        opacity: 50%;
+        height: 105vh;
+        width: 105vw;
+        position: fixed;
+        top: -1vh;
+        left: -2vw;
+        z-index: -1;
+    }
+    #blueberry{
+        margin-top: 5vh;
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        margin-left: 15vw; 
+    }
+    #citroen{
+        margin-top: 5vh;
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        margin-left: 15vw; 
+    }
+    #aardbei{
+        margin-top: 5vh;
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        margin-left: 15vw; 
+    }
+    footer{
+        margin-top: 5vh;
+        background-color: black;
+        height: 10vh;
     }
 }
 
-@media (min-width: 1200px){
+@media screen and (min-width: 1200px){
     body{
         width: 100vw;
         background-image: url(../images/1016430.png);
@@ -97,6 +179,7 @@
     footer{
         background-color: black;
         height: 10vh;
+        margin-top: 5vh;
     }
     .opacity{
         background-color: #0a1644;

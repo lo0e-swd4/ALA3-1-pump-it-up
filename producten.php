@@ -55,7 +55,7 @@
                Ingrediënten: <br> Carbonated water, sugar, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour</p>
-            <img src="images/voedingswaarden.png" alt="tabel voedingswaardes">
+            <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" class="Foto1">
         </section>
         <section id="blueberry">
             <!-- blueberry -->
@@ -64,7 +64,7 @@
             <p class="container">Ingrediënten: <br> Carbonated water, sugar, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, blueberry flavour</p>
-            <img src="images/voedingswaarden.png" alt="tabel voedingswaardes">
+            <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" >
         </section>
         <section id="citroen">
             <!-- Citroen -->
