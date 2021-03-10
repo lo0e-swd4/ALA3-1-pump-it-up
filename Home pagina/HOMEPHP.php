@@ -13,7 +13,7 @@
 <body>
 
 <div class="topnav">
-  <img class="logo"src="./images/logo.png" height="75px" alt="logo">
+  <img class="logo"src="./images/logo.png" height="80px" alt="logo">
   <a href="#Over ons">Over ons</a>
   <a href="#Contact">Contact</a>
   <a href="#Evenementen">Evenementen</a>
@@ -53,7 +53,6 @@
 
 <p class="Openings">Pump-It-Up is een energie drank van gamers voor gamers</p>
 
-<div class="navbalk"></div>
   <div class="Slides" style="max-width:500px">
   <img class="mySlides" src="./images/doggo.jpg" style="width:100%">
   <img class="mySlides" src="./images/soca.jpg" style="width:100%">
