@@ -4,8 +4,108 @@
         width: 100vw;
     }
 }
+
 @media (min-width: 1200px){
     body{
         width: 100vw;
+        background-image: url(../images/1016430.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: fantasy;
+        background-color: #0a1644;
+        z-index: -2;
     }
-}
+    ul li{
+            list-style: none;
+            text-decoration: none;
+            float: left;
+            margin-left: 3vw;
+            color: #07d1e3;
+            font-size: 1.5rem;
+    }
+    a:link, a:visited{
+        color: #07d1e3;
+        text-decoration: none;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        left: -8vw;
+        top: -10vh;
+    }
+    nav img{
+        height: 15vh;
+    }
+    header{
+        background-color: black;
+        height: 17vh;
+    }
+    #slideshow{
+        margin-top: 5vh;
+        margin-bottom: 5hv;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #original{
+        margin-top: 5vh;
+        display: flex;
+        width: 70vw;
+        flex-direction: row;
+        margin-left: 15vw;
+        color: white;
+    }
+    .titel{
+        color: #07d1e3;
+        font-size: 2rem;
+        position: relative;
+        left: 18vw;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        top: 10vh;
+        text-align: center;
+        left: -4vw;
+    }
+    #blueberry{
+        display: flex;
+        width: 70vw;
+        flex-direction: row;
+        margin-left: 15vw;
+        color: white;
+        margin-top: 5vh;
+    }
+    #citroen{
+        display: flex;
+        width: 70vw;
+        flex-direction: row;
+        margin-left: 15vw;
+        color: white;
+        margin-top: 5vh;
+    }
+    #aardbei{
+        display: flex;
+        width: 70vw;
+        flex-direction: row;            
+        margin-left: 15vw;
+        color: white;
+        margin-top: 5vh;
+    }
+    footer{
+        background-color: black;
+        height: 10vh;
+    }
+    .opacity{
+        background-color: #0a1644;
+        opacity: 50%;
+        height: 105vh;
+        width: 105vw;
+        position: fixed;
+        top: -1vh;
+        left: -2vw;
+        z-index: -1;
+    }
+    }
