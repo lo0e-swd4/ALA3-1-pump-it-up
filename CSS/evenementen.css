@@ -1,0 +1,117 @@
+body {
+    background-image: url("../images/web\ achtergrond.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-left: 3vw;
+    color: #07d1e3;
+    font-size: 1.5rem;
+}
+a:link, a:visited{
+color: #07d1e3;
+text-decoration: none;
+}
+#navbar{
+display: flex;
+flex-direction: row-reverse;
+position: relative;
+left: -8vw;
+top: -10vh;
+}
+
+#nav-bar-big img{
+    height: 15vh;
+    position: relative;
+}
+header{
+    background-color: black;
+    height: 17vh;
+}
+
+#about-events {
+    width: 30%;
+    text-align:center;
+	margin:0 auto;
+}
+#about-events p {
+    color: white;
+    font-size: 20px;
+
+}
+#about-events h1 {
+    color: #07d1e3;
+    font-size: 40px;
+}
+
+.artiesten h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #07d1e3;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.container img{
+    border-radius: 20px;
+}
+.container h1{
+    border-radius: 20px;
+    color: #07d1e3;
+    font-size: 25px;
+}
+.container p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.item-1 {
+    min-height: 100px;
+}
+.item-2 {
+    min-height: 100px;
+}
+.item-3 {
+    min-height: 100px;
+}
+
+.evenementen h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #07d1e3;
+    font-size: 40px;
+}
+.container-events {
+    display: flex;
+    justify-content: center;
+}
+
+.event-1 {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    padding: 10px 0;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    height: 10vh;
+    margin-top: 5vh;
+}
