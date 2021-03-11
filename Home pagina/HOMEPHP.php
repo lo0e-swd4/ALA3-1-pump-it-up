@@ -68,6 +68,7 @@
 <p class="contacttext">Vragen, opmerkingen of hulp nodig? druk <a href="#home">hier</a> om naar ons vragen formulier te gaan!</p>
 <p class="overonstext">Wij zijn Pump-it-Up, een jong fris bedrijf vol creative werknemers...  <a href="#home">Lees hier meer!</a> </p>
 
+<img class="fotomob" src="./images/logo.png" height="150px" alt="logo Pump-it-up">
 
 <script>
 var myIndex = 0;
