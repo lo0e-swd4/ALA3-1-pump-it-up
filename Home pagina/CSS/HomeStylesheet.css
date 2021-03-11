@@ -9,7 +9,7 @@ body{
     height: 300px;
     width: 300px;
     left: 570px;
-    top:  150px;
+    top:  100px;
 }
 
 .logo{
@@ -47,7 +47,7 @@ body{
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #07d1e3;
     text-align: center;
     padding: 29px 31px;
     text-decoration: none;
@@ -56,8 +56,8 @@ body{
   }
   
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #07d1e3;
+    color: white;
   }
 
 .esport{
@@ -68,14 +68,14 @@ body{
 
 .kort1{
     position: absolute;
-    top: 950px;
-    left: 200px;
+    top: 1400px;
+    left: 300px;
 }
 
 .kort2{
     position: absolute;
     top: 1400px;
-    left: 200px;
+    left: 300px;
 }
 
 .row {
@@ -143,20 +143,20 @@ body{
 }
 
 .opacity{
-background-color: #0a1644;
-opacity: 50%;
-height: 105vh;
-width: 105vw;
-position: fixed;
-top: -1vh;
-left: -2vw;
-z-index: -1;
+    background-color: #0a1644;
+    opacity: 50%;
+    height: 105vh;
+    width: 105vw;
+    position: fixed;
+    top: -1vh;
+    left: -2vw;
+    z-index: -1;
 }
 }
 
 @media screen and (min-width: 100px) and (max-width:767.9px){
 body{
-    font-size: large;
+    font-size: medium;
     font-family: fantasy;
 }
 
@@ -164,11 +164,12 @@ body{
     position: absolute;
     height: 100px;
     width: 200px;
-    left: 100px;
+    left: 80px;
     top:  100px;
 }
 .logo{
-    display: none;
+    position: absolute;
+    left: -30px;
 }
 
 .navbalk{
@@ -177,8 +178,8 @@ body{
 
 .Openings{
     position: absolute;
-    left: 100px;
-    top: 50px;
+    left: 80px;
+    top: 350px;
     width: 200px;
     text-align: center;
     color: #07d1e3;
@@ -189,7 +190,7 @@ body{
     left: 0;
     top: 0;
     width: 360px;
-    height: 740px;
+    height: 1800px;
     z-index: -1;
 }
 
@@ -217,10 +218,15 @@ body{
   }
 
 .esport{
-    display: none;
     position: absolute;
-    top: 600px;
-    left: 250px;
+    top: 400px;
+    left: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.esport img{
+    margin-top: 10vh;
 }
 
 .kort1{
@@ -238,22 +244,19 @@ body{
 }
 
 .row {
-    display: none;
     position: absolute;
-    display: flex;
-    width: 850px;
+    width: 250px;
     text-align: center;
-    left: 295px;
-    top: 700px;
+    left: 50px;
+    top: 1000px;
   }
   
 .column {
-    display: none;
     color: #07d1e3;
     flex: 50%;
-    left: 295px;
     padding: 10px;
     height: 300px;
+    margin-top: -6vh;
 }
 
 .eventtext{

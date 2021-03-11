@@ -86,5 +86,6 @@ function carousel() {
 }
 </script>
 <article class="opacity"></article>
+
 </body>
 </html>
