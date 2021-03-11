@@ -88,6 +88,9 @@
                 </section>
                 
             </article>
+            <article class="item-button">
+                <button>Bekijk alle artiesten</button>
+            </article>
         </article>
         <article class="evenementen">
             <h1>Evenementen</h1>
