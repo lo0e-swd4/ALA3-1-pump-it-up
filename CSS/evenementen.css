@@ -57,6 +57,11 @@ header{
     color: #07d1e3;
     font-size: 40px;
 }
+.artiesten h2 {
+    text-align: center;
+    color: #07d1e3;
+    font-size: 25px;
+}
 
 .container {
     display: flex;
@@ -94,6 +99,7 @@ header{
     color: #07d1e3;
     font-size: 40px;
 }
+
 .container-events {
     display: flex;
     justify-content: center;
@@ -110,8 +116,4 @@ header{
     flex-direction: column;
     justify-content: center;
 }
-footer{
-    background-color: black;
-    height: 10vh;
-    margin-top: 5vh;
-}
+

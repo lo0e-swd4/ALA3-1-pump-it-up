@@ -68,21 +68,31 @@
                 <section class="box-item item-1">
                     <img src="images/snelle.jpg">
                     <h2>Snelle </h2>
-                    <p> Hier komt tekst</p>
+                    <p>Wanneer</p>
+                    <p>Artiest</p>
+                    <p>Locatie</p>
                 </section>
                 <section class="box-item item-2">
                     <img src="images/snelle.jpg">
                     <h2>Rapper Sjors </h2>
-                    <p> Hier komt tekst</p>
+                    <p>Wanneer</p>
+                    <p>Artiest</p>
+                    <p>Locatie</p>
                     
                 </section>
                 <section class="box-item item-2">
                     <img src="images/snelle.jpg">
                     <h2>Lijpe</h2>
-                    <p> Hier komt tekst</p>
+                    <p>Wanneer</p>
+                    <p>Artiest</p>
+                    <p>Locatie</p>
                 </section>
                 
             </article>
+        </article>
+
+        <article> 
+
         </article>
 
        
