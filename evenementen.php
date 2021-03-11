@@ -67,18 +67,18 @@
             <article class="container">
                 <section class="box-item item-1">
                     <img src="images/snelle.jpg">
-                    <h1>Snelle </h1>
+                    <h2>Snelle </h2>
                     <p> Hier komt tekst</p>
                 </section>
                 <section class="box-item item-2">
                     <img src="images/snelle.jpg">
-                    <h1>Rapper Sjors </h1>
+                    <h2>Rapper Sjors </h2>
                     <p> Hier komt tekst</p>
                     
                 </section>
                 <section class="box-item item-2">
                     <img src="images/snelle.jpg">
-                    <h1>Lijpe</h1>
+                    <h2>Lijpe</h2>
                     <p> Hier komt tekst</p>
                 </section>
                 
