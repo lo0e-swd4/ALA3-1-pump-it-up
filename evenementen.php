@@ -62,8 +62,7 @@
         </section>
 
         <article class="artiesten">
-        <h1>Artiesten
-</h1>
+        <h1>Artiesten</h1>
             <article class="container">
                 <section class="box-item item-1">
                     <img src="images/snelle.jpg">
@@ -90,12 +89,72 @@
                 
             </article>
         </article>
+        <article class="evenementen">
+            <h1>Evenementen</h1>
+            </article class="container-event">
+                <article class="event-item event-1">
+                    <div class="event-img-1">
+                        <img src="images/gaming.jpg" alt="Gaming plaatje" width="400">
+                    </div>
+                    <div class="event-text-1">
+                        <h2>Game wedstrijden</h2>
+                        <p>type and scrambled it to make a type specimen book. it has 
+                    survived not only five centuries, but also the leap into electronic 
+                    typesetting, remaining essentially unchanged. it was popularised in 
+                    the 1960s with the release of letraset sheets containing lorem 
+                    ipsum passages, and more recently with desktop publishing 
+                    software like aldus pagemsurvived not only five centuries, but also the leap into electronic 
+                    typesetting, remaining essentially unchanged. it was popularised in 
+                    the 1960s with the release of letraset sheets containing lorem 
+                    ipsum passages, and more recently with desktop publishing 
+                    software like aldus pagemaker including versions of lorem ipsumaker including versions of lorem ipsum</p>
+                    </div>
+                    
+                </article>
 
-        <article> 
-
+                <article class="event-item event-2">
+                <div class="event-text-2">
+                        <h2>Game wedstrijden</h2>
+                        <p>type and scrambled it to make a type specimen book. it has 
+                    survived not only five centuries, but also the leap into electronic 
+                    typesetting, remaining essentially unchanged. it was popularised in 
+                    the 1960s with the release of letraset sheets containing lorem 
+                    ipsum passages, and more recently with desktop publishing 
+                    software like aldus pagemsurvived not only five centuries, but also the leap into electronic 
+                    typesetting, remaining essentially unchanged. it was popularised in 
+                    the 1960s with the release of letraset sheets containing lorem 
+                    ipsum passages, and more recently with desktop publishing 
+                    software like aldus pagemaker including versions of lorem ipsumaker including versions of lorem ipsum</p>
+                    </div>
+                    <div class="event-img-2">
+                        <img src="images/gaming.jpg" alt="Gaming plaatje" width="400">
+                    </div>
+                    
+                    
+                </article>
+                <article class="event-item event-1">
+                    <div class="event-img-1">
+                        <img src="images/gaming.jpg" alt="Gaming plaatje" width="400">
+                    </div>
+                    <div class="event-text-1">
+                        <h2>Game wedstrijden</h2>
+                        <p>type and scrambled it to make a type specimen book. it has 
+                    survived not only five centuries, but also the leap into electronic 
+                    typesetting, remaining essentially unchanged. it was popularised in 
+                    the 1960s with the release of letraset sheets containing lorem 
+                    ipsum passages, and more recently with desktop publishing 
+                    software like aldus pagemsurvived not only five centuries, but also the leap into electronic 
+                    typesetting, remaining essentially unchanged. it was popularised in 
+                    the 1960s with the release of letraset sheets containing lorem 
+                    ipsum passages, and more recently with desktop publishing 
+                    software like aldus pagemaker including versions of lorem ipsumaker including versions of lorem ipsum</p>
+                    </div>
+                    
+                </article>
+            </article>
         </article>
 
-       
+        <article class="opacity"></article>
     </main>
     <footer></footer>
 </body>
