@@ -85,5 +85,6 @@ function carousel() {
   setTimeout(carousel, 5000); 
 }
 </script>
+<article class="opacity"></article>
 </body>
 </html>
