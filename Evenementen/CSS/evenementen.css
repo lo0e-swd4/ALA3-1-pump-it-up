@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/1016430.png);
+    background-image: url(../../images/1016430.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,11 +32,11 @@ color: #07d1e3;
 text-decoration: none;
 }
 #navbar{
-display: flex;
-flex-direction: row-reverse;
-position: relative;
-left: -8vw;
-top: -10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    left: -8vw;
+    top: -10vh;
 }
 
 #nav-bar-big img{
@@ -104,12 +104,14 @@ header{
     border: none;
     cursor: pointer;
 }
+.item-button button:hover {
+    color: #0a1644;
+}
 .item-button {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .evenementen h1 {
@@ -183,6 +185,52 @@ footer{
     margin-top: 5vh;
     background-color: black;
     height: 10vh;
+}
+
+
+@media screen and (min-width: 100px) and (max-width:1199px){
+    #navbar {
+        display: none;
+    }
+    #about-events {
+        width: 60%;
+    }
+    .container {
+        display: block;
+        
+    }
+    .box-item img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .event-1  {
+        display: block;
+    }
+    .event-2 {
+        display: block;
+    }
+    .event-2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .event-1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .event-text-1 {
+        text-align: center;
+        width: 60%;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    
 }
 
 

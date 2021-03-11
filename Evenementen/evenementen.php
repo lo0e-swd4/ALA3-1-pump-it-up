@@ -15,11 +15,11 @@
 <body>
     <header id="nav-bar-big">
         <nav>
-            <img src="images/logo.png" alt="Logo">
+            <img src="../images/logo.png" alt="Logo">
         <section id="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="producten.php">Producten</a></li>
+                <li><a href="../producten.php">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Over Ons</a></li>
@@ -33,7 +33,7 @@
                 <nav id="item-nav">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="producten.php">Producten</a></li>
+                        <li><a href="../producten.php">Producten</a></li>
                         <li><a href="#">Evenementen</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Over Ons</a></li>
@@ -65,31 +65,31 @@
         <h1>Artiesten</h1>
             <article class="container">
                 <section class="box-item item-1">
-                    <img src="images/snelle.jpg">
-                    <h2>Snelle </h2>
-                    <p>Wanneer</p>
-                    <p>Artiest</p>
-                    <p>Locatie</p>
+                    <img src="../images/snelle.jpg">
+                    <h2>%Naam%</h2>
+                    <p>%Statement%</p>
+                    <p>%Datum%</p>
+                    <p>%Locatie%</p>
                 </section>
                 <section class="box-item item-2">
-                    <img src="images/snelle.jpg">
-                    <h2>Rapper Sjors </h2>
-                    <p>Wanneer</p>
-                    <p>Artiest</p>
-                    <p>Locatie</p>
+                    <img src="../images/snelle.jpg">
+                    <h2>%Naam%</h2>
+                    <p>%Statement%</p>
+                    <p>%Datum%</p>
+                    <p>%Locatie%</p>
                     
                 </section>
                 <section class="box-item item-2">
-                    <img src="images/snelle.jpg">
-                    <h2>Lijpe</h2>
-                    <p>Wanneer</p>
-                    <p>Artiest</p>
-                    <p>Locatie</p>
+                    <img src="../images/snelle.jpg">
+                    <h2>%Naam%</h2>
+                    <p>%Statement%</p>
+                    <p>%Datum%</p>
+                    <p>%Locatie%</p>
                 </section>
                 
             </article>
             <article class="item-button">
-                <button>Bekijk alle artiesten</button>
+                <button href="artiesten.php">Bekijk alle artiesten</button>
             </article>
         </article>
         <article class="evenementen">
@@ -97,7 +97,7 @@
             </article class="container-event">
                 <article class="event-item event-1">
                     <div class="event-img-1">
-                        <img src="images/gaming.jpg" alt="Gaming plaatje" width="400">
+                        <img src="../images/gaming.jpg" alt="Gaming plaatje" width="400">
                     </div>
                     <div class="event-text-1">
                         <h2>Game wedstrijden</h2>
@@ -116,7 +116,7 @@
                 </article>
 
                 <article class="event-item event-2">
-                <div class="event-text-2">
+                <div class="event-text-1">
                         <h2>Game wedstrijden</h2>
                         <p>type and scrambled it to make a type specimen book. it has 
                     survived not only five centuries, but also the leap into electronic 
@@ -130,14 +130,14 @@
                     software like aldus pagemaker including versions of lorem ipsumaker including versions of lorem ipsum</p>
                     </div>
                     <div class="event-img-2">
-                        <img src="images/gaming.jpg" alt="Gaming plaatje" width="400">
+                        <img src="../images/gaming.jpg" alt="Gaming plaatje" width="400">
                     </div>
                     
                     
                 </article>
                 <article class="event-item event-1">
                     <div class="event-img-1">
-                        <img src="images/gaming.jpg" alt="Gaming plaatje" width="400">
+                        <img src="../images/gaming.jpg" alt="Gaming plaatje" width="400">
                     </div>
                     <div class="event-text-1">
                         <h2>Game wedstrijden</h2>
@@ -163,3 +163,21 @@
 </body>
 
 </html>
+
+
+<?php
+
+    function getName($id) {
+        
+    }
+    function getStatment($id) {
+        
+    }
+    function getDatum($id) {
+        
+    }
+    function getLocatie($id) {
+        
+    }
+
+?>
