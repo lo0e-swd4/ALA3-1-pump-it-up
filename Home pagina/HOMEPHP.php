@@ -11,9 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="./CSS/HomeStylesheet.css">
 	</head>
 <body>
-
-<div class="topnav">
+<header>
   <img class="logo"src="./images/logo.png" height="80px" alt="logo">
+
+  <div class="topnav">
   <a href="#Over ons">Over ons</a>
   <a href="#Contact">Contact</a>
   <a href="#Evenementen">Evenementen</a>
@@ -67,8 +68,6 @@
 <p class="producttext">Pump-it-Up organiseert esport events voor jong en oud! <a href="#home">Lees hier meer!</a></p>
 <p class="contacttext">Vragen, opmerkingen of hulp nodig? druk <a href="#home">hier</a> om naar ons vragen formulier te gaan!</p>
 <p class="overonstext">Wij zijn Pump-it-Up, een jong fris bedrijf vol creative werknemers...  <a href="#home">Lees hier meer!</a> </p>
-
-<img class="fotomob" src="./images/logo.png" height="150px" alt="logo Pump-it-up">
 
 <script>
 var myIndex = 0;

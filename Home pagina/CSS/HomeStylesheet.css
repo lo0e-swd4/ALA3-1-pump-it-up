@@ -142,10 +142,6 @@ body{
     color: #07d1e3;
     text-align: center;
 }
-
-.fotomob{
-    display: none;
-}
 }
 
 @media screen and (min-width: 100px) and (max-width:767.9px){
@@ -163,10 +159,6 @@ body{
 }
 .logo{
     display: none;
-}
-
-.fotomob{
-    position: absolute;
 }
 
 .navbalk{
