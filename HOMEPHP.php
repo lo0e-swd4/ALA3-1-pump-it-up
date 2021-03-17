@@ -10,7 +10,7 @@
   <meta name="keywords" content="">
   <title>Pump it up!</title>
   <link rel="stylesheet" type="text/css" href="./CSS/HomeStylesheet.css">
-  <link rel="stylesheet" type="text/css" href="./CSS/HomeStylesheet.css">
+  <link rel="stylesheet" type="text/css" href="./CSS/common.css">
 </head>
 
 <body>
@@ -21,8 +21,8 @@
       <a href="#Over ons">Over ons</a>
       <a href="#Contact">Contact</a>
       <a href="#Evenementen">Evenementen</a>
-      <a href="#producten">producten</a>
-      <a href="#home">Home</a>
+      <a href="./producten.php">producten</a>
+      <a href="./HOMEPHP.php">Home</a>
     </div>
   </header>
 
@@ -82,11 +82,6 @@
       <div class="footer">
         <p>Footer</p>
       </div>
-
-      <p>Onze energie dranken bevatten de hoogste kwaliteit ingredienten. <a href="#home">Lees hier meer!</a></p>
-      <p>Pump-it-Up organiseert esport events voor jong en oud! <a href="#home">Lees hier meer!</a></p>
-      <p>Vragen, opmerkingen of hulp nodig? druk <a href="#home">hier</a> om naar ons vragen formulier te gaan!</p>
-      <p>Wij zijn Pump-it-Up, een jong fris bedrijf vol creative werknemers... <a href="#home">Lees hier meer!</a> </p>
 
       <script>
         var myIndex = 0;
