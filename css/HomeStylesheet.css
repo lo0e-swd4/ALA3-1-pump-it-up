@@ -49,11 +49,13 @@ body{
 }
 
 #kort1 img{
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 
 #kort1 p{
-    width: ;
+    width: 20vw;
+    text-align: center;
+    margin-left: 10vw;
 }
 
 #kort2{
@@ -63,6 +65,12 @@ body{
 }
 
 #kort2 img{
+    margin-left: 5vw;
+}
+
+#kort2 p{
+    width: 20vw;
+    text-align: center;
     margin-left: 10vw;
 }
 }
