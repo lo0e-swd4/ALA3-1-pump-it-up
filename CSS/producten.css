@@ -13,7 +13,7 @@
     #navbar{
         display: none;
     }
-    #nav-bar-big img{
+    #nav-bar img{
         height: 15vh;
         position: relative;
         left: -10vw;
@@ -88,16 +88,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width:1199px){
-    body{
-        width: 100vw;
-        background-image: url(../images/1016430.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        font-family: fantasy;
-        background-color: #0a1644;
-        z-index: -2;
-    }
+
     .opacity{
         background-color: #0a1644;
         opacity: 50%;
@@ -111,7 +102,7 @@
     #navbar{
         display: none;
     }
-    #nav-bar-big img{
+    #nav-bar img{
         height: 15vh;
         position: relative;
         left: -5vw;
@@ -218,8 +209,8 @@
         margin-top: 5vh;
         margin-bottom: 5hv;
         display: flex;
-        align-items: center;
         flex-direction: column;
+        align-items: center;
     }
     #original{
         margin-top: 5vh;

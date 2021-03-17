@@ -9,10 +9,11 @@
     <meta name="keywords" content="">
     <title>Producten | Pump It Up</title>
     <link rel="stylesheet" type="text/css" href="CSS/producten.css">  
-
+    <link rel="stylesheet" type="text/css" href="CSS/common.css">  
 </head>
+
 <body>
-    <header id="nav-bar-big">
+    <header id="nav-bar">
         <nav>
             <img src="images/logo.png" alt="Logo">
         <section id="navbar">
@@ -24,7 +25,7 @@
                 <li><a href="#">Over Ons</a></li>
             </ul>
             </section>
-            <section id="navbar">
+            <section id="navbar-small">
             <details>
                 <summary>
                     <h1>☰</h1>
@@ -43,9 +44,11 @@
         </nav>
     </header>
     <main>
-        
         <section id="slideshow">
         <img src="images/wocky_slus-removebg-preview.png" alt="blikjes">
+        </section>
+        <section>
+
         </section>
         <section id="original">
             <!-- Original -->
