@@ -11,17 +11,24 @@
     <link rel="stylesheet" type="text/css" href="CSS/producten.css">  
     <link rel="stylesheet" type="text/css" href="CSS/common.css">  
 </head>
+<?php
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $database = "energy";
 
+    $conn = new mysqli($host, $user, $pass, $database);
+    ?>
 <body>
     <header id="nav-bar">
         <nav>
             <img src="images/logo.png" alt="Logo">
         <section id="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="producten.php">Producten</a></li>
+                <li><a href="./HOMEPHP.php">Home</a></li>
+                <li><a href="./producten.php">Producten</a></li>
                 <li><a href="#">Evenementen</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="./contact.php">Contact</a></li>
                 <li><a href="#">Over Ons</a></li>
             </ul>
             </section>
@@ -32,10 +39,10 @@
                 </summary>
                 <nav id="item-nav">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="producten.php">Producten</a></li>
+                        <li><a href="./HOMEPHP.php">Home</a></li>
+                        <li><a href="./producten.php">Producten</a></li>
                         <li><a href="#">Evenementen</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./contact.php">Contact</a></li>
                         <li><a href="#">Over Ons</a></li>
                     </ul>
                     </nav>
@@ -44,18 +51,34 @@
         </nav>
     </header>
     <main>
-        <section id="slideshow">
+        <section id="banner">
         <img src="images/wocky_slus-removebg-preview.png" alt="blikjes">
         </section>
-        <section>
+        <section id="aanbieding">
+            <h1 class="tekst">Huidige aanbieding:</h1>
+            <p><span><?php 
+                    $sql = "SELECT * FROM aanbieding
+                    WHERE begindatum < NOW()
+                    AND einddatum > NOW()";
+                    $result = $conn->query($sql); 
+                    
+                    if($result){
+                        while ($row = $result->fetch_object()){
+                        echo $row->titel." ".$row->einddatum." ".$row->omschrijving."<br>";
+                    }
+                    
 
+                    $result->close();
+                    $conn->close();
+    }
+            ?></span></p>
         </section>
         <section id="original">
             <!-- Original -->
             <img src="images/original.png" alt="Original blikje">
             <h1 class="titel">Original</h1>
             <p class="container">
-               Ingrediënten: <br> Carbonated water, sugar, glucose-fructose, citric acid, taurine, 
+               Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour</p>
             <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" class="Foto1">
@@ -64,7 +87,7 @@
             <!-- blueberry -->
             <img src="images/blueberry.png" alt="Blueberry blikje">
             <h1 class="titel">Blauwe Bes</h1>
-            <p class="container">Ingrediënten: <br> Carbonated water, sugar, glucose-fructose, citric acid, taurine, 
+            <p class="container">Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, blueberry flavour</p>
             <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" >
@@ -73,7 +96,7 @@
             <!-- Citroen -->
             <img src="images/citroen.png" alt="citroen blikje">
             <h1 class="titel">Citroen</h1>
-            <p class="container">Ingrediënten: <br> Carbonated water, sugar, glucose-fructose, citric acid, taurine, 
+            <p class="container"> <strong>Ingrediënten:</strong> <br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, lemon flavour</p>
                <img src="images/voedingswaarden.png" alt="tabel voedingswaardes">
@@ -82,7 +105,7 @@
             <!-- Aardbei -->
             <img src="images/aardbei.png" alt="aardbei blikje">
             <h1 class="titel">Aardbei</h1>
-            <p class="container">Ingrediënten: <br> Carbonated water, sugar, glucose-fructose, citric acid, taurine, 
+            <p class="container">Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, strawberry flavour</p>
                <img src="images/voedingswaarden.png" alt="tabel voedingswaardes">
