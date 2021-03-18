@@ -1,4 +1,10 @@
 @media screen and (min-width: 1200px){
+body{
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
 #Slides2{
     display: flex;

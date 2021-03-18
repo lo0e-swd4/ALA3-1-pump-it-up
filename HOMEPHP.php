@@ -17,13 +17,15 @@
   <header>
     <img class="logo" src="./images/logo.png" height="80px" alt="logo">
 
-    <div class="topnav">
-      <a href="#Over ons">Over ons</a>
-      <a href="#Contact">Contact</a>
-      <a href="#Evenementen">Evenementen</a>
-      <a href="./producten.php">producten</a>
-      <a href="./HOMEPHP.php">Home</a>
-    </div>
+    <section id="navbar">
+            <ul>
+                <li><a href="./HOMEPHP.php">Home</a></li>
+                <li><a href="./producten.php">Producten</a></li>
+                <li><a href="#">Evenementen</a></li>
+                <li><a href="./contact.php">Contact</a></li>
+                <li><a href="#">Over Ons</a></li>
+            </ul>
+            </section>
   </header>
 
     <section id="Slides2">
