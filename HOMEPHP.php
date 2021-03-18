@@ -14,19 +14,9 @@
 </head>
 
 <body>
-  <header>
-    <img class="logo" src="./images/logo.png" height="80px" alt="logo">
-
-    <section id="navbar">
-            <ul>
-                <li><a href="./HOMEPHP.php">Home</a></li>
-                <li><a href="./producten.php">Producten</a></li>
-                <li><a href="#">Evenementen</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-                <li><a href="#">Over Ons</a></li>
-            </ul>
-            </section>
-  </header>
+  <?php
+  include("navbar.php");
+  ?>
 
     <section id="Slides2">
       <div class="Slides" style="max-width:500px">
