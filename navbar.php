@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="./HOMEPHP.php">Home</a></li>
                 <li><a href="./producten.php">Producten</a></li>
-                <li><a href="#">Evenementen</a></li>
+                <li><a href="./evenementen.php">Evenementen</a></li>
                 <li><a href="./contact.php">Contact</a></li>
                 <li><a href="#">Over Ons</a></li>
             </ul>
@@ -33,7 +33,7 @@
                     <ul>
                         <li><a href="./HOMEPHP.php">Home</a></li>
                         <li><a href="./producten.php">Producten</a></li>
-                        <li><a href="#">Evenementen</a></li>
+                        <li><a href="./evenementen.php">Evenementen</a></li>
                         <li><a href="./contact.php">Contact</a></li>
                         <li><a href="#">Over Ons</a></li>
                     </ul>

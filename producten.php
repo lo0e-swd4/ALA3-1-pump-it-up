@@ -12,36 +12,9 @@
     <link rel="stylesheet" type="text/css" href="CSS/common.css">  
 </head>
 <body>
-    <header id="nav-bar">
-        <nav>
-            <img src="images/logo.png" alt="Logo">
-        <section id="navbar">
-            <ul>
-                <li><a href="./HOMEPHP.php">Home</a></li>
-                <li><a href="./producten.php">Producten</a></li>
-                <li><a href="#">Evenementen</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-                <li><a href="#">Over Ons</a></li>
-            </ul>
-            </section>
-            <section id="navbar-small">
-            <details>
-                <summary>
-                    <h1>☰</h1>
-                </summary>
-                <nav id="item-nav">
-                    <ul>
-                        <li><a href="./HOMEPHP.php">Home</a></li>
-                        <li><a href="./producten.php">Producten</a></li>
-                        <li><a href="#">Evenementen</a></li>
-                        <li><a href="./contact.php">Contact</a></li>
-                        <li><a href="#">Over Ons</a></li>
-                    </ul>
-                    </nav>
-            </details>
-            </section>
-        </nav>
-    </header>
+    <?php
+        include("navbar.php");
+    ?>
     <main>
         <section id="banner">
         <img src="images/wocky_slus-removebg-preview.png" alt="blikjes">
