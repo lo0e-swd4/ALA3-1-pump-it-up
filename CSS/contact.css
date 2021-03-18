@@ -1,0 +1,43 @@
+* {margin: 0; 
+    padding: 0;}
+@media screen and (max-width: 767.9px) {
+
+
+    #bigscreen {
+        display: none;
+      
+    }
+    
+}
+.mobile_logo{
+    width: 150px;
+    margin-left: -15px;
+}
+
+body{
+    background-image: url("../images/mobile_achtergrond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.item-ham{
+    color: #07d1e3;
+    margin-left: 50vw;
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1199px){
+
+    #tablet {
+
+    }
+}
+
+
+      /* start bigscreen */ 
+   @media screen and (min-width: 1200px) {
+    
+    #mobile{
+        display: none;
+    }
+   }    
