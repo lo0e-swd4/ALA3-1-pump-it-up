@@ -62,7 +62,7 @@
                     
                     if($result){
                         while ($row = $result->fetch_object()){
-                        echo$row->titel." "." Eindigt op: ".$row->einddatum." ".$row->omschrijving."<br>";
+                        echo$row->titel."  |  "." Eindigt op: ".$row->einddatum."  |  ".$row->omschrijving."<br>";
                     }
                     
             ?></p>
