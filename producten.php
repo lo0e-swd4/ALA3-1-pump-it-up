@@ -11,14 +11,6 @@
     <link rel="stylesheet" type="text/css" href="CSS/producten.css">  
     <link rel="stylesheet" type="text/css" href="CSS/common.css">  
 </head>
-<?php
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
-    $database = "energy";
-
-    $conn = new mysqli($host, $user, $pass, $database);
-    ?>
 <body>
     <header id="nav-bar">
         <nav>
@@ -55,23 +47,44 @@
         <img src="images/wocky_slus-removebg-preview.png" alt="blikjes">
         </section>
         <section id="aanbieding">
-            <h1 class="tekst">Huidige aanbieding:</h1>
-            <p><span><?php 
-                    $sql = "SELECT * FROM aanbieding
+            <h1 class="tekst">Huidige aanbiedingen:<br></h1>
+            <p><?php
+             $host = "localhost";
+             $user = "root";
+             $pass = "";
+             $database = "energy";
+         
+             $conn = new mysqli($host, $user, $pass, $database); 
+                    $sql = "SELECT * FROM aanbiedingen
                     WHERE begindatum < NOW()
                     AND einddatum > NOW()";
                     $result = $conn->query($sql); 
                     
                     if($result){
                         while ($row = $result->fetch_object()){
-                        echo $row->titel." ".$row->einddatum." ".$row->omschrijving."<br>";
+                        echo$row->titel." "." Eindigt op: ".$row->einddatum." ".$row->omschrijving."<br>";
+                    }
+                    
+            ?></p>
+            <h1>Komende aanbiedingen:</h1>
+            <p><?php
+                    $conn = new mysqli($host, $user, $pass, $database); 
+                     $sql = "SELECT * FROM aanbiedingen
+                        WHERE begindatum > NOW()
+                        LIMIT 3";
+                        $result = $conn->query($sql); 
+                    
+                    if($result){
+                        while ($row = $result->fetch_object()){
+                        echo$row->titel."  |  "." Begint op: ".$row->begindatum."  |  ".$row->omschrijving."<br>";
                     }
                     
 
                     $result->close();
                     $conn->close();
-    }
-            ?></span></p>
+                    }
+                }
+            ?>
         </section>
         <section id="original">
             <!-- Original -->

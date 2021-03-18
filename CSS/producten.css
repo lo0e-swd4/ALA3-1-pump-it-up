@@ -109,11 +109,13 @@
 @media screen and (min-width: 1200px){
     #aanbieding{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-    }
-    #aanbieding{
+        text-align: center;
         color: white;
+    }
+    #aanbieding h1{
+        color: #07d1e3;
         justify-content: center;
     }
     #banner{
