@@ -1,8 +1,10 @@
 @media screen and (min-width: 100px) and (max-width:767.9px){
     body{
         width: 100vw;
-        background-image: url(../images/1016430.png);
-        background-repeat: no-repeat;
+        background: linear-gradient(
+            rgba(10, 22, 68, 0.5),
+            rgba(10, 22, 68, 0.5)
+            ), url(../images/1016430.png);        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         font-family: fantasy;
@@ -41,14 +43,16 @@
         margin-top: 5vh;
         background-color: black;
         height: 10vh;
-    }
+    }    
 }
 
 @media screen and (min-width: 768px) and (max-width:1199px){
 body{
     width: 100vw;
-    background-image: url(../images/1016430.png);
-    background-repeat: no-repeat;
+    background: linear-gradient(
+        rgba(10, 22, 68, 0.5),
+        rgba(10, 22, 68, 0.5)
+        ), url(../images/1016430.png);    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-family: fantasy;
@@ -95,7 +99,10 @@ footer{
     } 
     body{
         width: 100vw;
-        background-image: url(../images/1016430.png);
+        background: linear-gradient(
+            rgba(10, 22, 68, 0.5),
+            rgba(10, 22, 68, 0.5)
+            ), url(../images/1016430.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
