@@ -82,7 +82,7 @@
             <!-- Citroen -->
             <img src="images/citroen.png" alt="citroen blikje">
             <h1 class="titel">Citroen</h1>
-            <p class="container"> <strong>Ingrediënten:</strong> <br> Carbonated water, glucose-fructose, citric acid, taurine, 
+            <p class="container">Ingrediënten:<br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, lemon flavour</p>
                <img src="images/voedingswaarden.png" alt="tabel voedingswaardes">
