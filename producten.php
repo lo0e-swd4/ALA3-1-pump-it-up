@@ -98,6 +98,8 @@
         </section>
     </main>
     <article class="opacity"></article>
-    <footer></footer>
+    <?php
+        include("footer.php");
+    ?>
 </body>
 </html>
