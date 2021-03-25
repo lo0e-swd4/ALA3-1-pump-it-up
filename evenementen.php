@@ -49,7 +49,7 @@
         <h1>Artiesten</h1>
             <article class="container">
                 <section class="box-item item-1">
-                    <img src="images/snelle.jpg">
+                    <img src="images/MileyCyrus.jpg">
                     <?php
 
                     $id = 104;
@@ -78,7 +78,7 @@
                     ?>
                 </section>
                 <section class="box-item item-2">
-                    <img src="images/snelle.jpg">
+                    <img src="images/ElvisPresley.jpg">
                     <?php
 
                     $id = 101;
@@ -108,7 +108,7 @@
                     
                 </section>
                 <section class="box-item item-2">
-                    <img src="images/snelle.jpg">
+                    <img src="images/RapperSjors.jpg">
                     <?php
 
                     $id = 105;
@@ -209,7 +209,9 @@
 
         <article class="opacity"></article>
     </main>
-    <footer></footer>
+    <?php 
+        include ('footer.php');
+    ?>
 </body>
 
 </html>
