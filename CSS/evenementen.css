@@ -9,44 +9,7 @@ body {
     z-index: -2;
     font-family: fantasy;
 }
-.opacity{
-    background-color: #0a1644;
-    opacity: 50%;
-    height: 105vh;
-    width: 105vw;
-    position: fixed;
-    top: -1vh;
-    left: -2vw;
-    z-index: -1;
-}
-ul li{
-    list-style: none;
-    text-decoration: none;
-    float: left;
-    margin-left: 3vw;
-    color: #07d1e3;
-    font-size: 1.5rem;
-}
-a:link, a:visited{
-color: #07d1e3;
-text-decoration: none;
-}
-#navbar{
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    left: -8vw;
-    top: -10vh;
-}
 
-#nav-bar-big img{
-    height: 15vh;
-    position: relative;
-}
-header{
-    background-color: black;
-    height: 17vh;
-}
 
 #about-events {
     width: 30%;
