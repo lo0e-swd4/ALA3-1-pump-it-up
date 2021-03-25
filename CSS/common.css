@@ -130,7 +130,9 @@ a:link, a:visited{
     left: -2vw;
     z-index: -1;
 }
-
+#navbar{
+    display: none;
+}
 #nav-bar img{
     height: 15vh;
     position: relative;
