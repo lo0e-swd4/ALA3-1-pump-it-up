@@ -12,11 +12,6 @@ body{
     justify-content: center;
 }
 
-#Slides2 img{
-    width: 20vw;
-    height: 20vw;
-}
-
 #Opens{
     display: flex;
     align-items: center;
@@ -90,8 +85,8 @@ body{
 }
 
 #Slides2 img{
-    width: 80vw;
-    height: 80vw;
+    width: 60vw;
+    height: 60vw;
 }
 
 #Opens{
@@ -180,8 +175,8 @@ body{
 }
 
 #Slides2 img{
-    width: 40vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
 }
 
 #Opens{

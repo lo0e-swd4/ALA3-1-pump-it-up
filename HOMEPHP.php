@@ -20,8 +20,8 @@
 
     <section id="Slides2">
       <div class="Slides" style="max-width:500px">
-        <img class="mySlides" src="./images/doggo.jpg" style="width:100%">
-        <img class="mySlides" src="./images/soca.jpg" style="width:100%">
+        <img class="mySlides" src="./images/Slide 1 korting deze week.png" style="width:200%">
+        <img class="mySlides" src="./images/ssss" style="width:100%">
         <img class="mySlides" src="img_chicago.jpg" style="width:100%">
       </div>
     </section>
@@ -71,10 +71,6 @@
 
     <div class="backk" style="background-image: url('./images/backk.gif');">
 
-      <div class="footer">
-        <p>Footer</p>
-      </div>
-
       <script>
         var myIndex = 0;
         carousel();
@@ -94,7 +90,9 @@
         }
       </script>
       <article class="opacity"></article>
-
+      <?php
+  include("footer.php");
+  ?>
 </body>
 
 </html>
