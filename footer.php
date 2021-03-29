@@ -12,6 +12,6 @@
 </head>
 <body>
     <footer>
-      <p>Pump it up</p>
+       <p>&copy; Pump it up </p>
     </footer>
 </body>

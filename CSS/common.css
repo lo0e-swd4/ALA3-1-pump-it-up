@@ -13,12 +13,37 @@
         display: none;
     }
 
+    #navbar-small{
+        color: black;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 4vw;
+        margin-bottom: 10vh;
+        text-align: right;
+        position: relative;
+        list-style: none;
+        margin-top: -20vh;
+        z-index: 2;
+    }
+    #navbar-small h1{
+        color: #07d1e3;
+        font-size: 3rem;
+        margin-bottom: 1vh;
+    }
+    #navbar-small ul li{
+        background-color: black;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-right:-2vw;
+        height: 5vh;
+        list-style: none;
+        width: 48vw;
+    }
     #nav-bar img{
         height: 15vh;
         position: relative;
         left: -10vw;
     }
-
     header{
         background-color: black;
         height: 17vh;
@@ -41,6 +66,15 @@
         margin-top: 5vh;
         background-color: black;
         height: 10vh;
+        color: #07d1e3;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+    }
+    #navbar{
+        display: none;
     }
 }
 
@@ -54,6 +88,33 @@ body{
     font-family: fantasy;
     background-color: #0a1644;
     z-index: -2;
+}
+#navbar{
+    display: none;
+}
+#navbar-small{
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 4vw;
+    margin-bottom: 10vh;
+    position: relative;
+    text-align: right;
+    list-style: none;
+    top: -16vh;
+}
+#navbar-small h1{
+    color: #07d1e3;
+    font-size: 3rem;
+}
+#navbar-small ul li{
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin-right:-3vw;
+    height: 5vh;
+    list-style: none;
+    width: 30vw;
 }
 a:link, a:visited{
     color: #07d1e3;
@@ -86,6 +147,12 @@ footer{
     margin-top: 5vh;
     background-color: black;
     height: 10vh;
+    color: #07d1e3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
 }
 }
 @media screen and (min-width: 1200px){
