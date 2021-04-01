@@ -20,7 +20,7 @@
 
     <section id="Slides2">
       <div class="Slides" style="max-width:500px">
-        <img class="mySlides" src="./images/Slide 1 korting deze week FINAL2.png" style="width:200%">
+        <img class="mySlides" src="./images/Slide 1 korting deze week FINAL3.png" style="width:200%">
         <img class="mySlides" src="./images/Slide 2.png" style="width:200%">
       </div>
     </section>
