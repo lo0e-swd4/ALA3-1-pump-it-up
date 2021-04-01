@@ -17,29 +17,16 @@
   include("navbar.php");
   ?>
 
-    <!-- <section id="Slides2">
-      <div class="Slides" style="max-width:200px">
-        <img class="mySlides" src="images/slideshow 1.png" style="width:100%">
-        <img class="mySlides" src="images/slideshow 2.png" style="width:100%">
-        
-      </div>
-    </section>
-
-    <section id="Slides3">
-      <div class="Slides" style="max-width:200px">
-        <img class="mySlides" src="images/ipad slideshow 1.png" style="width:100%">
-        <img class="mySlides" src="images/ipad slideshow 2.png" style="width:100%">
-        
-      </div>
-    </section> -->
 
     <main id="contact-page">
    
       <div class="container">
           <h1>Contact formulier:</h1>
           <p>
-          Ik heb een: 
-          <input type="radio">Vraag  <input type="radio">Opmerking
+            Ik heb een: 
+            <input type="radio">Vraag  
+            <input type="radio">Opmerking
+          </p>
         <form action="action_page.php">
 
       
@@ -104,7 +91,9 @@
         }
 </script>
 
-<footer></footer>
+      <?php
+      include("footer.php");
+      ?>
 
     
 </body>
