@@ -50,16 +50,6 @@
         background-color: black;
         height: 17vh;
     }
-    .opacity{
-        background-color: #0a1644;
-        opacity: 50%;
-        height: 105vh;
-        width: 105vw;
-        position: fixed;
-        top: -1vh;
-        left: -2vw;
-        z-index: -1;
-    }
     a:link, a:visited{
         color: #07d1e3;
         text-decoration: none;
@@ -123,16 +113,6 @@ body{
 a:link, a:visited{
     color: #07d1e3;
     text-decoration: none;
-}
-.opacity{
-    background-color: #0a1644;
-    opacity: 50%;
-    height: 105vh;
-    width: 105vw;
-    position: fixed;
-    top: -1vh;
-    left: -2vw;
-    z-index: -1;
 }
 #navbar{
     display: none;
@@ -216,14 +196,5 @@ footer{
         justify-content: center;
         font-size: 2rem;
     }
-    .opacity{
-        background-color: #0a1644;
-        opacity: 50%;
-        height: 105vh;
-        width: 105vw;
-        position: fixed;
-        top: -1vh;
-        left: -2vw;
-        z-index: -1;
-    }
+
 }
