@@ -28,7 +28,7 @@
              $database = "energy";
          
              $conn = new mysqli($host, $user, $pass, $database); 
-                    $sql = "SELECT titel, DATE_FORMAT(begindatum, '%d-%m-%Y') AS begindatum, DATE_FORMAT(begindatum, '%d-%m-%Y') AS einddatum, omschrijving
+                    $sql = "SELECT titel, DATE_FORMAT(begindatum, '%d-%m-%Y') AS begindatum, DATE_FORMAT(einddatum, '%d-%m-%Y') AS einddatum, omschrijving
                     FROM aanbiedingen
                     WHERE  begindatum< NOW()
                     AND einddatum > NOW()";
@@ -44,7 +44,7 @@
             <h1>Komende aanbiedingen:</h1>
             <p><?php
                     $conn = new mysqli($host, $user, $pass, $database); 
-                     $sql = "SELECT titel, DATE_FORMAT(begindatum, '%d-%m-%Y') AS begindatum, DATE_FORMAT(begindatum, '%d-%m-%Y') AS einddatum, omschrijving
+                     $sql = "SELECT titel, DATE_FORMAT(begindatum, '%d-%m-%Y') AS begindatum, DATE_FORMAT(einddatum, '%d-%m-%Y') AS einddatum, omschrijving
                      FROM aanbiedingen
                      WHERE  begindatum > NOW()
                      AND einddatum > NOW()
