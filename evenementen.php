@@ -118,7 +118,7 @@
                 
             </article>
             <article class="item-button">
-                <button href="artiesten.php">Bekijk alle artiesten</button>
+                <a href="artiesten.php">Bekijk alle artiesten</a>
             </article>
         </article>
         <article class="evenementen">

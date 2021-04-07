@@ -42,27 +42,93 @@
                     $id = 101;
 
                     $locatie_id = 0;
-                        $sql = 'SELECT * FROM artiesten WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<h2>'.$row->naam.'</h2>';
-                            echo '<p>'.$row->statement.'</p>';
-                        }
-
-                        $sql = 'SELECT * FROM evenementen WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->datum.'</p>';
-
-                            $locatie_id = $row->locatie_id;
-                        }
-                        $sql = 'SELECT * FROM locaties WHERE locatie_id='.$locatie_id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
-
-                        }
+                    $sql = 'SELECT naam, statement, datum, plaatsnaam,locaties.locatie_id, gebouw FROM artiesten
+                    JOIN evenementen ON evenementen.artiest_id = artiesten.artiest_id
+                    JOIN locaties ON evenementen.locatie_id = locaties.locatie_id WHERE artiesten.artiest_id=' .$id;
+                    if($result = $conn->query($sql)) {
+                        $row = $result->fetch_object();
+                        echo '<h2>'.$row->naam.'</h2>';
+                        echo '<p>'.$row->statement.'</p>';
+                        echo '<p>'.$row->datum.'</p>';
+                        $locatie_id = $row->locatie_id;
+                        $row = $result->fetch_object();
+                        echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
+                    }
+                    
                     ?>
+                    <a href="artiestinfo.php?id=101">Bekijk artiets</a>
+                </section>
+                <section class="box-item item-2">
+                    <img src="images/ElvisPresley.jpg">
+                    <?php
+
+                    $id = 102;
+
+                    $locatie_id = 0;
+                    $sql = 'SELECT naam, statement, datum, plaatsnaam,locaties.locatie_id, gebouw FROM artiesten
+                    JOIN evenementen ON evenementen.artiest_id = artiesten.artiest_id
+                    JOIN locaties ON evenementen.locatie_id = locaties.locatie_id WHERE artiesten.artiest_id=' .$id;
+                    if($result = $conn->query($sql)) {
+                        $row = $result->fetch_object();
+                        echo '<h2>'.$row->naam.'</h2>';
+                        echo '<p>'.$row->statement.'</p>';
+                        echo '<p>'.$row->datum.'</p>';
+                        $locatie_id = $row->locatie_id;
+                        $row = $result->fetch_object();
+                        echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
+                    }
+                    ?>
+                    <a href="artiestinfo.php?id=102">Bekijk artiets</a>
+                    
+                </section>
+                <section class="box-item item-2">
+                    <img src="images/MileyCyrus.jpg">
+                    <?php
+
+                    $id = 103;
+
+                    $locatie_id = 0;
+                    $sql = 'SELECT naam, statement, datum, plaatsnaam,locaties.locatie_id, gebouw FROM artiesten
+                    JOIN evenementen ON evenementen.artiest_id = artiesten.artiest_id
+                    JOIN locaties ON evenementen.locatie_id = locaties.locatie_id  WHERE artiesten.artiest_id=' .$id;
+                    if($result = $conn->query($sql)) {
+                        $row = $result->fetch_object();
+                        echo '<h2>'.$row->naam.'</h2>';
+                        echo '<p>'.$row->statement.'</p>';
+                        echo '<p>'.$row->datum.'</p>';
+                        $locatie_id = $row->locatie_id;
+                        $row = $result->fetch_object();
+                        echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
+                    }
+                    ?>
+                     <a href="artiestinfo.php?id=103">Bekijk artiets</a>
+                </section>
+                
+            </article>
+        </article>
+        <article class="artiesten">
+            <article class="container">
+                <section class="box-item item-1">
+                    <img src="images/snelle.jpg">
+                    <?php
+
+                    $id = 103;
+
+                    $locatie_id = 0;
+                    $sql = 'SELECT naam, statement, datum, plaatsnaam,locaties.locatie_id, gebouw FROM artiesten
+                    JOIN evenementen ON evenementen.artiest_id = artiesten.artiest_id
+                    JOIN locaties ON evenementen.locatie_id = locaties.locatie_id  WHERE artiesten.artiest_id=' .$id;
+                    if($result = $conn->query($sql)) {
+                        $row = $result->fetch_object();
+                        echo '<h2>'.$row->naam.'</h2>';
+                        echo '<p>'.$row->statement.'</p>';
+                        echo '<p>'.$row->datum.'</p>';
+                        $locatie_id = $row->locatie_id;
+                        $row = $result->fetch_object();
+                        echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
+                    }
+                    ?>
+                     <a href="artiestinfo.php?id=103">Bekijk artiets</a>
                 </section>
                 <section class="box-item item-2">
                     <img src="images/snelle.jpg">
@@ -71,138 +137,45 @@
                     $id = 102;
 
                     $locatie_id = 0;
-                        $sql = 'SELECT * FROM artiesten WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<h2>'.$row->naam.'</h2>';
-                            echo '<p>'.$row->statement.'</p>';
-                        }
-
-                        $sql = 'SELECT * FROM evenementen WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->datum.'</p>';
-
-                            $locatie_id = $row->locatie_id;
-                        }
-                        $sql = 'SELECT * FROM locaties WHERE locatie_id='.$locatie_id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
-
-                        }
+                    $sql = 'SELECT naam, statement, datum, plaatsnaam,locaties.locatie_id, gebouw FROM artiesten
+                    JOIN evenementen ON evenementen.artiest_id = artiesten.artiest_id
+                    JOIN locaties ON evenementen.locatie_id = locaties.locatie_id  WHERE artiesten.artiest_id=' .$id;
+                    if($result = $conn->query($sql)) {
+                        $row = $result->fetch_object();
+                        echo '<h2>'.$row->naam.'</h2>';
+                        echo '<p>'.$row->statement.'</p>';
+                        echo '<p>'.$row->datum.'</p>';
+                        $locatie_id = $row->locatie_id;
+                        $row = $result->fetch_object();
+                        echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
+                    }
                     ?>
+                     <a href="artiestinfo.php?id=102">Bekijk artiets</a>
                     
                 </section>
                 <section class="box-item item-2">
                     <img src="images/snelle.jpg">
                     <?php
 
-                    $id = 103;
+                    $id = 101;
 
                     $locatie_id = 0;
-                        $sql = 'SELECT * FROM artiesten WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<h2>'.$row->naam.'</h2>';
-                            echo '<p>'.$row->statement.'</p>';
-                        }
-
-                        $sql = 'SELECT * FROM evenementen WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->datum.'</p>';
-
-                            $locatie_id = $row->locatie_id;
-                        }
-                        $sql = 'SELECT * FROM locaties WHERE locatie_id='.$locatie_id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
-
-                        }
-                    ?>
-                </section>
-                
-            </article>
-        </article>
-        <article class="artiesten">
-            <article class="container">
-                <section class="box-item item-1">
-                    <img src="../images/snelle.jpg">
-                    <?php
-
-                    $id = 104;
-
-                    $locatie_id = 0;
-                        $sql = 'SELECT * FROM artiesten WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<h2>'.$row->naam.'</h2>';
-                            echo '<p>'.$row->statement.'</p>';
-                        }
-
-                        $sql = 'SELECT * FROM evenementen WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->datum.'</p>';
-
-                            $locatie_id = $row->locatie_id;
-                        }
-                        $sql = 'SELECT * FROM locaties WHERE locatie_id='.$locatie_id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
-
-                        }
-                    ?>
-                </section>
-                <section class="box-item item-2">
-                    <img src="images/snelle.jpg">
-                    <?php
-
-                    $id = 105;
-
-                    $locatie_id = 0;
-                        $sql = 'SELECT * FROM artiesten WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<h2>'.$row->naam.'</h2>';
-                            echo '<p>'.$row->statement.'</p>';
-                        }
-
-                        $sql = 'SELECT * FROM evenementen WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->datum.'</p>';
-
-                            $locatie_id = $row->locatie_id;
-                        }
-                        $sql = 'SELECT * FROM locaties WHERE locatie_id='.$locatie_id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
-
-                        }
-                    ?>
-                    
-                </section>
-                <section class="box-item item-2">
-                    <img src="images/snelle.jpg">
-                    <?php
-
-                    $id = 121;
-
-                    $locatie_id = 0;
-                        $sql = 'SELECT * FROM artiesten WHERE artiest_id='.$id;
-                        if($result = $conn->query($sql)) {
-                            $row = $result->fetch_object();
-                            echo '<h2>'.$row->naam.'</h2>';
-                            echo '<p>'.$row->statement.'</p>';
-                        }
+                    $sql = 'SELECT naam, statement, datum, plaatsnaam,locaties.locatie_id, gebouw FROM artiesten
+                    JOIN evenementen ON evenementen.artiest_id = artiesten.artiest_id
+                    JOIN locaties ON evenementen.locatie_id = locaties.locatie_id  WHERE artiesten.artiest_id=' .$id;
+                    if($result = $conn->query($sql)) {
+                        $row = $result->fetch_object();
+                        echo '<h2>'.$row->naam.'</h2>';
+                        echo '<p>'.$row->statement.'</p>';
+                        echo '<p>'.$row->datum.'</p>';
+                        $locatie_id = $row->locatie_id;
+                        $row = $result->fetch_object();
+                        echo '<p>'.$row->plaatsnaam.' in '.$row->gebouw.'</p>';
+                    }
 
                         
                     ?>
+                     <a href="artiestinfo.php?id=101">Bekijk artiets</a>
                 </section>
                 
             </article>
