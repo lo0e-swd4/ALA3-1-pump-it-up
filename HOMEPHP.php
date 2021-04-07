@@ -20,16 +20,39 @@
 
     <section id="Slides2">
       <div class="Slides" style="max-width:500px">
-        <img class="mySlides" src="./images/Slide 1 korting deze week FINAL2.png" style="width:200%">
+        <img class="mySlides" src="./images/Slide 1 korting deze week FINAL3.png" style="width:200%">
         <img class="mySlides" src="./images/Slide 2.png" style="width:200%">
-        <img class="mySlides" src="img_chicago.jpg" style="width:100%">
       </div>
     </section>
 
     <section id="Opens">
       <p>Pump-It-Up is een energie drank van gamers voor gamers</p>
     </section>
-
+    <section id="aanbieding">
+            <h1 class="tekst">Huidige aanbiedingen:<br></h1>
+            <p><?php
+             $host = "localhost";
+             $user = "root";
+             $pass = "";
+             $database = "energy";
+         
+             $conn = new mysqli($host, $user, $pass, $database); 
+                    $sql = "SELECT titel, DATE_FORMAT(begindatum, '%d-%m-%Y') AS begindatum, DATE_FORMAT(begindatum, '%d-%m-%Y') AS einddatum, omschrijving
+                    FROM aanbiedingen
+                    WHERE  begindatum< NOW()
+                    AND einddatum > NOW()";
+                    
+                    $result = $conn->query($sql); 
+                    
+                    if($result){
+                        while ($row = $result->fetch_object()){
+                        echo$row->titel."  |  "." Begint op: ".$row->begindatum."  |  "." Eindigt op: ".$row->einddatum."  |  ".$row->omschrijving."<br>";
+                    }
+                    $result->close();
+                    $conn->close();
+                    }
+            ?></p>
+        </section>
     <article id="esport">
       <section>
         <img src="./images/esport3.jpg" height="200px" alt="Foto esport">
@@ -60,11 +83,11 @@
 
     <article id="kort2">
       <section>
-        <img src="./images/contact.png" height="250px" alt="Foto contact">
+        <img class="contactfix" src="./images/contact.png" height="250px" alt="Foto contact">
         <p>Vragen, opmerkingen of hulp nodig? druk <a href="#home">hier</a> om naar ons vragen formulier te gaan!</p>
       </section>
       <section>
-        <img src="./images/over ons.png" height="250px" width="465px" alt="Foto over ons">
+        <img class="" src="./images/over ons.png" height="250px" width="465px" alt="Foto over ons">
         <p>Wij zijn Pump-it-Up, een jong fris bedrijf vol creative werknemers... <a href="#home">Lees hier meer!</a> </p>
       </section>
     </article>

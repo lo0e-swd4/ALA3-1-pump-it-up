@@ -1,8 +1,10 @@
 @media screen and (min-width: 100px) and (max-width:767.9px){
     body{
         width: 100vw;
-        background-image: url(../images/1016430.png);
-        background-repeat: no-repeat;
+        background: linear-gradient(
+            rgba(10, 22, 68, 0.5),
+            rgba(10, 22, 68, 0.5)
+            ), url(../images/1016430.png);        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         font-family: fantasy;
@@ -48,16 +50,6 @@
         background-color: black;
         height: 17vh;
     }
-    .opacity{
-        background-color: #0a1644;
-        opacity: 50%;
-        height: 105vh;
-        width: 105vw;
-        position: fixed;
-        top: -1vh;
-        left: -2vw;
-        z-index: -1;
-    }
     a:link, a:visited{
         color: #07d1e3;
         text-decoration: none;
@@ -81,8 +73,10 @@
 @media screen and (min-width: 768px) and (max-width:1199px){
 body{
     width: 100vw;
-    background-image: url(../images/1016430.png);
-    background-repeat: no-repeat;
+    background: linear-gradient(
+        rgba(10, 22, 68, 0.5),
+        rgba(10, 22, 68, 0.5)
+        ), url(../images/1016430.png);    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-family: fantasy;
@@ -120,16 +114,6 @@ a:link, a:visited{
     color: #07d1e3;
     text-decoration: none;
 }
-.opacity{
-    background-color: #0a1644;
-    opacity: 50%;
-    height: 105vh;
-    width: 105vw;
-    position: fixed;
-    top: -1vh;
-    left: -2vw;
-    z-index: -1;
-}
 #navbar{
     display: none;
 }
@@ -162,7 +146,10 @@ footer{
     } 
     body{
         width: 100vw;
-        background-image: url(../images/1016430.png);
+        background: linear-gradient(
+            rgba(10, 22, 68, 0.5),
+            rgba(10, 22, 68, 0.5)
+            ), url(../images/1016430.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -209,14 +196,5 @@ footer{
         justify-content: center;
         font-size: 2rem;
     }
-    .opacity{
-        background-color: #0a1644;
-        opacity: 50%;
-        height: 105vh;
-        width: 105vw;
-        position: fixed;
-        top: -1vh;
-        left: -2vw;
-        z-index: -1;
-    }
+
 }

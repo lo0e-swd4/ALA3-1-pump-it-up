@@ -28,28 +28,32 @@
              $database = "energy";
          
              $conn = new mysqli($host, $user, $pass, $database); 
-                    $sql = "SELECT * FROM aanbiedingen
-                    WHERE begindatum < NOW()
+                    $sql = "SELECT titel, DATE_FORMAT(begindatum, '%d-%m-%Y') AS begindatum, DATE_FORMAT(einddatum, '%d-%m-%Y') AS einddatum, omschrijving
+                    FROM aanbiedingen
+                    WHERE  begindatum< NOW()
                     AND einddatum > NOW()";
+                    
                     $result = $conn->query($sql); 
                     
                     if($result){
                         while ($row = $result->fetch_object()){
-                        echo$row->titel."  |  "." Eindigt op: ".$row->einddatum."  |  ".$row->omschrijving."<br>";
+                        echo$row->titel."  |  "." Begint op: ".$row->begindatum."  |  "." Eindigt op: ".$row->einddatum."  |  ".$row->omschrijving."<br>";
                     }
                     
             ?></p>
             <h1>Komende aanbiedingen:</h1>
             <p><?php
                     $conn = new mysqli($host, $user, $pass, $database); 
-                     $sql = "SELECT * FROM aanbiedingen
-                        WHERE begindatum > NOW()
-                        LIMIT 3";
+                     $sql = "SELECT titel, DATE_FORMAT(begindatum, '%d-%m-%Y') AS begindatum, DATE_FORMAT(einddatum, '%d-%m-%Y') AS einddatum, omschrijving
+                     FROM aanbiedingen
+                     WHERE  begindatum > NOW()
+                     AND einddatum > NOW()
+                     limit 3";
                         $result = $conn->query($sql); 
                     
                     if($result){
                         while ($row = $result->fetch_object()){
-                        echo$row->titel."  |  "." Begint op: ".$row->begindatum."  |  ".$row->omschrijving."<br>";
+                        echo$row->titel."  |  "." Begint op: ".$row->begindatum."  |  "." Eindigt op: ".$row->einddatum."  |  ".$row->omschrijving."<br>";
                     }
                     
 
@@ -62,39 +66,47 @@
         <section id="original">
             <!-- Original -->
             <img src="images/original.png" alt="Original blikje">
-            <h1 class="titel">Original</h1>
-            <p class="container">
+            <div>
+                <h1 class="titel">Original</h1>
+                <p class="container">
                Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour</p>
+            </div>
             <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" class="Foto1">
         </section>
         <section id="blueberry">
             <!-- blueberry -->
             <img src="images/blueberry.png" alt="Blueberry blikje">
-            <h1 class="titel">Blauwe Bes</h1>
-            <p class="container">Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
+            <div>
+                <h1 class="titel">Blauwe Bes</h1>
+                <p class="container">Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, blueberry flavour</p>
-            <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" >
+            </div>
+            <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" class="Foto1">
         </section>
         <section id="citroen">
             <!-- Citroen -->
             <img src="images/citroen.png" alt="citroen blikje">
-            <h1 class="titel">Citroen</h1>
-            <p class="container">Ingrediënten:<br> Carbonated water, glucose-fructose, citric acid, taurine, 
+            <div>
+                <h1 class="titel">Citroen</h1>
+                <p class="container">Ingrediënten:<br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, lemon flavour</p>
-               <img src="images/voedingswaarden.png" alt="tabel voedingswaardes">
+            </div>
+               <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" class="Foto1">
         </section>
         <section id="aardbei">
             <!-- Aardbei -->
             <img src="images/aardbei.png" alt="aardbei blikje">
-            <h1 class="titel">Aardbei</h1>
-            <p class="container">Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
+            <div>
+                <h1 class="titel">Aardbei</h1>
+                <p class="container">Ingrediënten: <br> Carbonated water, glucose-fructose, citric acid, taurine, 
                sodium bicarbonate, magnesium carbonate, caffeine, niacin, panthothenate, vitamin B6, 
                vitamin B12, artificial flavour, strawberry flavour</p>
-               <img src="images/voedingswaarden.png" alt="tabel voedingswaardes">
+            </div>
+               <img src="images/voedingswaarden.png" alt="tabel voedingswaardes" class="Foto1">
         </section>
     </main>
     <article class="opacity"></article>
